@@ -1,0 +1,5 @@
+{
+  "timezone": "Asia/Shanghai",
+  "roles": ["放行员", "机务人员", "监管人员", "只读用户"],
+  "eventIdExample": "flight-event-0001"
+}
