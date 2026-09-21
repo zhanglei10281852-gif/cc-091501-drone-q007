@@ -1,5 +1,7 @@
 {
   "timezone": "Asia/Shanghai",
-  "roles": ["放行员", "机务人员", "监管人员", "只读用户"],
-  "eventIdExample": "flight-event-0001"
+  "roles": ["放行员", "机务人员", "监管人员", "调查员", "只读用户"],
+  "piiVisibleRoles": ["调查员"],
+  "eventIdExample": "flight-event-0001",
+  "detectionRules": ["duplicate_identity", "impossible_speed", "position_jump", "expired_certificate", "unregistered_identity"]
 }
